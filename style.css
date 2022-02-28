@@ -1,0 +1,42 @@
+body{
+  background-color: blue
+}
+.container{
+  max-width: 1260px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: yellow;
+  margin-top: 50px;
+}
+.grids{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 10px;
+  height: 500px;
+}
+.grid-item{
+  background-color: cadetblue;
+}
+.item1{
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.item3{
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+.item5{
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 3;
+}
+.item8{
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 2;
+}
+.item11{
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
